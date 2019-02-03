@@ -11,11 +11,11 @@ var pic2W = 70;
 var pic2H = 100;
 var grapeR = 40;
 var pic1 = new Image(); //new Image() sets 'pic1' as an Image Object
-pic1.src = "jam.png";
+pic1.src = "img/jam.png";
 var pic2 = new Image();
-pic2.src = "juice.png";
+pic2.src = "img/juice.png";
 var pic3 = new Image();
-pic3.src = "pop.png";
+pic3.src = "img/pop.png";
 function drawBackground() //things that won't move in the animation
 {
     var ctx = document.getElementById("myCanvas").getContext("2d");
